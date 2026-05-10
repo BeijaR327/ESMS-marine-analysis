@@ -129,3 +129,5 @@ Planned next steps include:
 * Non-linear modeling approaches
 * Tree-based models for feature importance
 * Clustering methods for environmental regime segmentation
+
+This project combines marine biology concepts with data science and machine learning techniques to explore environmental instability patterns in ocean systems.
