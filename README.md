@@ -81,6 +81,8 @@ This project includes custom functions for:
 * Volatility (rolling standard deviation)
 * Environmental Stress Movement Score (ESMS)
 
+## Validation Limitations
+
 Because this project uses time-dependent environmental observations and lagged features, temporal leakage was considered during evaluation.
 
 Initial model testing used Leave-One-Out Cross-Validation (LOOCV) due to the extremely small dataset size (n = 6 yearly observations). However, LOOCV does not fully preserve chronological ordering and may allow future observations to influence training data indirectly.
