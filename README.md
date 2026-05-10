@@ -10,6 +10,26 @@ This project was completed independently by Beija Richardson.
 
 All data preprocessing, feature engineering, visualization development, and modeling preparation were completed by the author.
 
+## Repository Structure
+
+- NOAA_OISST_Report.ipynb → primary notebook
+- README.md → project documentation
+- LICENSE → MIT license
+
+## Testing & Validation
+
+The notebook was tested in Google Colab using the NOAA OISST NetCDF files listed in this repository documentation.
+
+All notebook cells were executed sequentially to confirm:
+- successful package installation
+- dataset loading
+- feature engineering
+- ESMS generation
+- visualization creation
+- model evaluation outputs
+
+The notebook completed without runtime errors after dependency installation.
+
 ## Project Overview
 
 This project investigates how sea surface temperature anomalies relate to environmental variability patterns that may reflect behavioral irregularity in marine systems.
@@ -17,6 +37,16 @@ This project investigates how sea surface temperature anomalies relate to enviro
 ## Research Question
 
 How do sea surface temperature anomalies in the North Atlantic relate to environmental variability patterns that may reflect behavioral irregularity in Atlantic Bluefin Tuna migration systems?
+
+## Required Packages
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- xarray
+- netCDF4
 
 ## Dataset
 
